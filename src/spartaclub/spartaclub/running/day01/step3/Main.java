@@ -1,4 +1,4 @@
-package spartaclub.spartaclub.running.day01.step2;
+package spartaclub.spartaclub.running.day01.step3;
 
 public class Main {
     public static void main(String[] args) {

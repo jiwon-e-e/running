@@ -1,4 +1,4 @@
-package spartaclub.spartaclub.running.day01.step2;
+package spartaclub.spartaclub.running.day01.step3;
 
 // ⭕ GOOD Code: 내 상태(beans)는 내가 관리한다! (캡슐화)
 

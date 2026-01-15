@@ -1,4 +1,4 @@
-package spartaclub.spartaclub.running.day01.step2;
+package spartaclub.spartaclub.running.day01.step3;
 
 // ⭕ GOOD Code: 바리스타에게 '주문'만 하면 됨
 public class Customer {
