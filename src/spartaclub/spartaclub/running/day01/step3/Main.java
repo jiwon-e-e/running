@@ -2,17 +2,18 @@ package spartaclub.spartaclub.running.day01.step3;
 
 public class Main {
     public static void main(String[] args) {
-        //바리스타 한 명 나오세요!!
-        Barista bariKim = new Barista();
-        Customer sonny = new Customer();
 
-        sonny.order("아이스아메리카노",bariKim);
-        sonny.order("카페라떼",bariKim);
-        sonny.order("카페라떼",bariKim);
-        sonny.order("마끼아또",bariKim);
-        sonny.order("뜨아",bariKim);
-        sonny.order("두쫀쿠",bariKim);
+        System.out.println("=== 1일차 Step 3: 객체 간 메시징 (Messaging) ===");
 
+        Barista chulsoo = new Barista();
+        Cashier younghee = new Cashier(chulsoo); // 캐셔는 바리스타와 협력
+        Customer gildong = new Customer();
+
+        // 손님 -> (주문) -> 캐셔 -> (제조 요청) -> 바리스타 -> (커피 반환)
+        gildong.order("따뜻한 라떼", younghee);
+
+        System.out.println("\n--- 추가 주문 ---");
+        gildong.order("에스프레소", younghee);
 
     }
 }
