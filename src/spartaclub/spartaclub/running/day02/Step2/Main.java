@@ -2,6 +2,7 @@ package spartaclub.spartaclub.running.day02.Step2;
 
 public class Main {
     public static void main(String[] args) {
+        //익명클래스 사용 
 
         //햄버거 셰프 고용
         HamburgerChef burgerKing = new HamburgerChef();
