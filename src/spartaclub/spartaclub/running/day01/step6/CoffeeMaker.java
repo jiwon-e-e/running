@@ -1,5 +1,5 @@
-package spartaclub.spartaclub.running.day01.step5;
+package spartaclub.spartaclub.running.day01.step6;
 
 public interface CoffeeMaker {
-    Coffee makeCoffee (String menuName);
+    Coffee makeCoffee (Menu menu);
 }

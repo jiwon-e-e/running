@@ -1,4 +1,4 @@
-package spartaclub.spartaclub.running.day01.step6;
+package spartaclub.spartaclub.running.day01.step7;
 
 public class OrderContext {
 

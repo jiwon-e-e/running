@@ -1,4 +1,4 @@
-package spartaclub.spartaclub.running.day01.step5;
+package spartaclub.spartaclub.running.day01.step6;
 
 public class OrderContext {
 
@@ -9,6 +9,6 @@ public class OrderContext {
 
     // 오후반 설정: 로봇 바리스타 + 캐셔
     public static Cashier configAfternoonShift() {
-        return new Cashier(new RobotBarista()); // 의존성 주입 (DI)
+        return new Cashier(new CatBarista()); // 의존성 주입 (DI)
     }
 }

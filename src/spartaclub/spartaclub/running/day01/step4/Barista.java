@@ -7,6 +7,7 @@ public class Barista implements CoffeeMaker{
     private int beans = 100; // 커피 원두 양 (그램)
 
     // 2. 상태를 변경하는 로직을 스스로 수행 (책임 수행)
+    @Override
     public Coffee makeCoffee(String menuName) {
         if (this.beans >= 20) {
             this.beans -= 20;

@@ -1,4 +1,4 @@
-package spartaclub.spartaclub.running.day01.step5;
+package spartaclub.spartaclub.running.day01.step6;
 
 public class Coffee {
     private String name;
@@ -11,3 +11,4 @@ public class Coffee {
         return "☕ " + name;
     }
 }
+

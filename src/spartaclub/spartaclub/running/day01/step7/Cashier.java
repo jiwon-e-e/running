@@ -1,4 +1,4 @@
-package spartaclub.spartaclub.running.day01.step6;
+package spartaclub.spartaclub.running.day01.step7;
 
 // ⭕ GOOD Code: 주문을 받아서 바리스타에게 전달하는 역할 (Manager)
 public class Cashier {

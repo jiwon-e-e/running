@@ -1,4 +1,4 @@
-package spartaclub.spartaclub.running.day01.step6;
+package spartaclub.spartaclub.running.day01.step7;
 
 // ⭕ GOOD Code: 메시지 전송 (Messaging)
 public class Customer {
@@ -12,7 +12,7 @@ public class Customer {
         Coffee coffee = cashier.takeOrder(menu);
 
         if (coffee != null) {
-            System.out.println("손님: (홀짝) 음~ " + coffee + " 맛있다.");
+            System.out.println("손님: (홀짝) 음~ " + coffee + " 맛있다.\n");
         } else {
             System.out.println("손님: (아쉽) 다음에 올게요.");
         }
