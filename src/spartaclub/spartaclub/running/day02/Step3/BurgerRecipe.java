@@ -6,6 +6,7 @@ package spartaclub.spartaclub.running.day02.Step3;
 // -> 일반메서드와 static 메서드는 추가 가능
 public interface BurgerRecipe {
     void cook();
+    // void wash();  <<< error!!!
 
     static void foo(){
         System.out.println("static 메서드는 구현 가능! ");
