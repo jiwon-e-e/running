@@ -1,4 +1,4 @@
-package spartaclub.spartaclub.running.day02.Step4;
+package spartaclub.spartaclub.running.day02.step4;
 
 // 사과 데이터 설계도
 public class Apple {

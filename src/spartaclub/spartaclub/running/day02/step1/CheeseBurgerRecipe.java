@@ -1,4 +1,4 @@
-package spartaclub.spartaclub.running.day02.Step1;
+package spartaclub.spartaclub.running.day02.step1;
 
 public class CheeseBurgerRecipe implements BurgerRecipe{
 

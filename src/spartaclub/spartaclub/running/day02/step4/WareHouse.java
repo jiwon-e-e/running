@@ -1,8 +1,8 @@
-package spartaclub.spartaclub.running.day02.Step4;
+package spartaclub.spartaclub.running.day02.step4;
 
 import java.util.List;
 
-import static spartaclub.spartaclub.running.day02.Step4.Color.*;
+import static spartaclub.spartaclub.running.day02.step4.Color.*;
 
 // 사과 창고
 public class WareHouse {

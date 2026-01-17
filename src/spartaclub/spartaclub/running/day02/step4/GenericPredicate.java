@@ -1,4 +1,4 @@
-package spartaclub.spartaclub.running.day02.Step4;
+package spartaclub.spartaclub.running.day02.step4;
 
 @FunctionalInterface
 public interface GenericPredicate<T> {

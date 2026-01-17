@@ -1,4 +1,4 @@
-package spartaclub.spartaclub.running.day02.Step2;
+package spartaclub.spartaclub.running.day02.step1;
 
 public class HamburgerChef {
     //햄버거 만드는 전략
